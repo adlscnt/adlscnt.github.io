@@ -43,12 +43,35 @@ nav ul li a:hover {
     transition: 1s;
 }
 
+/*"Last Updated"*/
+.update {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #EFE7DA;
+    margin-top: 50px;
+}
+.update p {
+    color: #9d9485;
+    font-family: 'Cottsmic', sans-serif;
+    font-size: 20px;
+}
+
 
 /*Introduction*/
 .introduction header h1 {
     font-size: 200px;
-    text-align: right;
     padding-right: 50px;
+    text-align: right;
     color: #CD7D44;
     font-family: 'Molex Shoora', sans-serif;
+}
+
+.introduction .hello {
+    margin-bottom: -100px;
+}
+
+.introduction {
+    width: 1000px;
+    float: right;
 }
