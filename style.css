@@ -16,15 +16,15 @@ html, body {
 
 
 
-/*Removing bullets, margin/padding to Navigation*/
+/*Navigation clean up*/
 nav ul {
     list-style-type: none;
     margin: 0;
     padding-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    width: auto;
 }
 
 nav ul li a {
@@ -33,7 +33,6 @@ nav ul li a {
     letter-spacing: 3px;
     font-size: 30px;
     font-family: 'Cottsmic', sans-serif;
-    padding: 14px 16px;
 }
 
 nav ul li a:hover {
@@ -75,13 +74,6 @@ nav ul li a:hover {
     color: #82713D;
 }
 
-/*Progress bar*/
-.progressbar {
-    width: 400px;
-    position: absolute;
-    margin-top: 700px;
-    margin-left: 25px;
-}
 
 /*Introduction: "Hi, I'm Cierra"*/
 .introduction header h1 {
@@ -90,6 +82,15 @@ nav ul li a:hover {
     text-align: right;
     color: #CD7D44;
     font-family: 'Molex Shoora', sans-serif;
+}
+
+.introduction header p {
+    font-size: 25px;
+    margin-top: -125px;
+    text-align: right;
+    padding-right: 50px;
+    font-family: 'Forzan', sans-serif;
+    color: #9D3F06;
 }
 
 .introduction .hello {
@@ -102,3 +103,5 @@ nav ul li a:hover {
     float: right;
     margin-top: -70px;
 }
+
+
