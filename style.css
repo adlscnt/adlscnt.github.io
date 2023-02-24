@@ -10,7 +10,7 @@ html, body {
 /*Background*/
 .back {
     width: 100%;
-    height: 6000px;
+    height: auto;
     background-color: #EACBAB;
 }
 
@@ -82,26 +82,95 @@ nav ul li a:hover {
     text-align: right;
     color: #CD7D44;
     font-family: 'Molex Shoora', sans-serif;
+    margin-top: 20px;
 }
 
 .introduction header p {
     font-size: 25px;
-    margin-top: -125px;
+    margin-top: -100px;
     text-align: right;
     padding-right: 50px;
     font-family: 'Forzan', sans-serif;
     color: #9D3F06;
 }
 
-.introduction .hello {
-    margin-bottom: -100px;
-}
-
 .introduction {
     position: relative;
     width: 1000px;
     float: right;
-    margin-top: -70px;
+    margin-top: 0px;
+    height: auto;
+    background-color: #EACBAB;
 }
+
+
+/*Degree Progress*/
+.degree {
+    margin-top: 700px;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    background-color: #CD7D44;
+}
+.degree header h1 {
+    font-size: 100px;
+    font-family: 'Cottsmic', sans-serif;
+    color: #EACBAB;
+}
+.degree header p {
+    font-size: 25px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: #9D3F06;
+}
+
+
+/*What I am learning*/
+.learning {
+    float: left;
+    width: 50%;
+    height: 1000px;
+    background-color: #82713D;
+    justify-content: center;
+}
+.learning header h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cottsmic', sans-serif;
+    color: #EFE7DA;
+}
+
+
+
+/*What I already know*/
+.learned {
+    float: right;
+    width: 50%;
+    height: 1000px;
+    background-color: #EFE7DA;
+}
+.learned header h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cottsmic', sans-serif;
+    color: #82713D;
+}
+
+
+/*Web portfolio*/
+#portfolio {
+    margin-top: 1000px;
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    background-color:#9D3F06;
+}
+#portfolio header h1 {
+    font-size: 100px;
+    font-family: 'Cottsmic', sans-serif;
+    color: #EACBAB;
+}
+
+
+
 
 
