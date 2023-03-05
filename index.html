@@ -10,6 +10,7 @@
     <link href="https://fonts.cdnfonts.com/css/karmella" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/zen-kurenaido" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/forzan" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sweet-bread?styles=149710" rel="stylesheet">
     <!--Imported Animations-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -20,13 +21,15 @@
 
 
 <body>
-    <div class="back">
         <!--Navigation-->
         <div id="navigation">
             <nav>
                 <ul>
                     <li>
                         <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
                     </li>
                     <li>
                         <a href="#portfolio">Portfolio</a>
@@ -63,23 +66,33 @@
             
         </div>
         
+        <!--About Me-->
+        <div id="about">
+            <h1>Who I Am</h1>
+            <h2>My Work Style</h2>
+            <p>I am a very quick learner. You may notice there are some skills or concepts within web development that I have not yet acquired. Although this may be true, I am able to pick up on things very easily compared to others and I am very determined to learn new things. I am a perfectionist. Whatever project I am working on, it has to be exactly how I pictured it to look. I am the type of person who will not stop working until I am satisfied. I am a compassionate team player, always thinking of others before myself.</p>
+            <h2>What Motivates Me</h2>
+            <p>The main thing that motivates me is my loved ones. My family and significant other are the ones who push me to be the best version of myself and are my biggest supporters. Aside from this, I am motivated by opportunities to grow within the web development field. There are so many things you can do with web development and design. Speaking of, my ultimate goal is to become a full-stack developer. I would like to start small and begin a career within front-end development, while further educating myself with programming languages that I would utilize inside back-end development. I wish to bring the entrepreneurial spirit and drive that I have to the next position I acquire, and leave a digital footprint with my designs and interactivity.</p>
+        </div>
+
+
         <!--Degree Progress-->
-        <div class="degree" data-aos="fade-up"
-        data-aos-easing="ease-in-back"
-        data-aos-delay="300"
-        data-aos-offset="0" data-aos-duration="1500">
-            <header>
+        <div class="degree">
+            <header data-aos="fade-up"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" data-aos-duration="1500">
                 <h1>Degree Progress</h1>
                 <p>I am 54.5% finished with my Web Development AAS degree, and one more course away from recieving my Website Design SD.</p>
+                <p>Start Date: January, 2022</p>
+                <p>End Date: May, 2024</p>
             </header>
         </div>
 
 
         <!--What I am learning-->
-        <div class="skills">
-            <div class="learning" data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine" data-aos-duration="1500">
+        <div id="skills">
+            <div class="learning">
                 <header>
                     <h1>What I Am Learning</h1>
                     <ul>
@@ -95,9 +108,7 @@
                 </header>
             </div>
         <!--What I already know-->
-            <div class="learned" data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <div class="learned">
                 <header>
                     <h1>My proficiencies</h1>
                     <ul>
@@ -108,7 +119,7 @@
                         <li>GitHub</li>
                             <p>As of recently, I have my most current projects uploaded to GitHub. In fact, this is how I was able to post this site via GitHub pages! I am super excited to get my code out for others to visualize. I am very active on GitHub, considering I update my code at least 3-4 times a week. Although I have almost all of my projects privately posted, I am willing to provide the source code to any employers who are willing to reach out.</p>
                         <li>Terminal</li>
-                            <p>I have recently been educating myself on how to manipulate, downloading and install items through terminal commands via MacOS.</p>
+                            <p>I have recently been educating myself on how to manipulate, download and install items through terminal commands via MacOS.</p>
                         <li>Adobe Creative Cloud</li>
                             <p>Last spring of 2022, I was taught how to navigate Adobe Creative Cloud which included creating projects via Photoshop and Illustrator.</p>
                         <li>Adobe Photoshop</li>
@@ -128,17 +139,16 @@
         </div>
 
         <!--Integrated web designs Portfolio-->
-        <div id="portfolio" data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom">
+        <div id="portfolio">
             <header>
-                <h1>Projects</h1>
+                <h1 data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">Projects</h1>
             </header>
         </div>
 
 
         <!--Fine art portfolio-->
 
-    </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

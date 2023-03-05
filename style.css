@@ -4,15 +4,9 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    background-color: #F2F2F0;
 }
 
-
-/*Background*/
-.back {
-    width: 100%;
-    height: auto;
-    background-color: #EACBAB;
-}
 
 
 
@@ -28,7 +22,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;
+    color: #595959;
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 30px;
@@ -36,8 +30,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #CD7D44;
-    transition: 1s;
+    color: #A6A6A6;
+    transition: 2s;
 }
 
 /*"Last Updated"*/
@@ -45,16 +39,16 @@ nav ul li a:hover {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #EFE7DA;
+    background-color: #D9D9D9;
     margin-top: 50px;
 }
 .update p {
-    color: #9d9485;
+    color: #595959;
     font-family: 'Cottsmic', sans-serif;
     font-size: 20px;
 }
 
-/*"Student DEVELOPER & DESIGNER*/
+/*"Student DEVELOPER & DESIGNER"*/
 .college {
     padding-left: 20px;
     height: 300px;
@@ -66,12 +60,12 @@ nav ul li a:hover {
     font-size: 25px;
     margin-bottom: -45px;
     font-family: 'Zen Kurenaido', sans-serif;
-    color: #82713dae;
+    color: #595959;
 }
 .college h2{
     font-size: 55px;
     font-family: 'Karmella', sans-serif;
-    color: #82713D;
+    color: #595959;
 }
 
 
@@ -80,9 +74,9 @@ nav ul li a:hover {
     font-size: 200px;
     padding-right: 50px;
     text-align: right;
-    color: #CD7D44;
+    color: #0D0D0D;
     font-family: 'Molex Shoora', sans-serif;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .introduction header p {
@@ -90,8 +84,8 @@ nav ul li a:hover {
     margin-top: -100px;
     text-align: right;
     padding-right: 50px;
-    font-family: 'Forzan', sans-serif;
-    color: #9D3F06;
+    font-family: 'Sweet Bread', sans-serif;
+    color: black;
 }
 
 .introduction {
@@ -100,74 +94,122 @@ nav ul li a:hover {
     float: right;
     margin-top: 0px;
     height: auto;
-    background-color: #EACBAB;
 }
 
 
 /*Degree Progress*/
 .degree {
-    margin-top: 700px;
+    margin-top: 50px;
     display: flex;
     height: 500px;
     justify-content: center;
-    background-color: #CD7D44;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .degree header h1 {
     font-size: 100px;
     font-family: 'Cottsmic', sans-serif;
-    color: #EACBAB;
+    color: #595959;
 }
 .degree header p {
     font-size: 25px;
-    font-family: 'Zen Kurenaido', sans-serif;
-    color: #9D3F06;
+    font-family: 'Sweet Bread', sans-serif;
+    color: black;
 }
+
+
+
+/*About me*/
+#about {
+    margin-top: 700px;
+    padding-left: 50px;
+    padding-right: 700px;
+    background-image: url(images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+#about h1 {
+    font-size: 100px;
+    font-family: 'Cottsmic', sans-serif;
+    color: #595959;
+}
+#about h2 {
+    font-size: 75px;
+    font-family: 'Sweet Bread', sans-serif;
+    color: #595959;
+}
+#about p {
+    font-size: 25px;
+    font-family: 'Sweet Bread', sans-serif;
+}
+
+
 
 
 /*What I am learning*/
 .learning {
     float: left;
     width: 50%;
-    height: 1000px;
-    background-color: #82713D;
+    height: 1500px;
     justify-content: center;
+    font-size: 20px;
 }
 .learning header h1 {
     text-align: center;
     font-size: 50px;
     font-family: 'Cottsmic', sans-serif;
-    color: #EFE7DA;
+    color: #595959;
 }
-
-
+.learning header ul {
+    font-family: 'Sweet Bread', sans-serif;
+    list-style-type: none;
+    padding-right: 50px;
+}
+.learning header ul li {
+    font-size: 30px;
+}
+.learning header p {
+    padding-left: 20px;
+}
 
 /*What I already know*/
 .learned {
     float: right;
     width: 50%;
-    height: 1000px;
-    background-color: #EFE7DA;
+    height: 1500px;
+    font-size: 20px;
 }
 .learned header h1 {
     text-align: center;
     font-size: 50px;
     font-family: 'Cottsmic', sans-serif;
-    color: #82713D;
+    color: #595959;
+}
+.learned header ul {
+    font-family: 'Sweet Bread', sans-serif;
+    list-style-type: none;
+    padding-right: 50px;
+}
+.learned header ul li {
+    font-size: 30px;
+}
+.learned header p {
+    padding-left: 20px;
 }
 
 
 /*Web portfolio*/
 #portfolio {
-    margin-top: 1000px;
+    margin-top: 1500px;
     display: flex;
     justify-content: center;
     height: 1000px;
-    background-color:#9D3F06;
 }
 #portfolio header h1 {
     font-size: 100px;
     font-family: 'Cottsmic', sans-serif;
-    color: #EACBAB;
+    color: #595959;
 }
 
 
