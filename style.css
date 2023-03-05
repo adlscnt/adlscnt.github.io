@@ -205,11 +205,28 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     height: 1000px;
+    text-align: center;
 }
 #portfolio header h1 {
     font-size: 100px;
     font-family: 'Cottsmic', sans-serif;
     color: #595959;
+}
+#portfolio header h4 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Sweet Bread', sans-serif;
+}
+#portfolio header p {
+    font-size: 30px;
+    color: black;
+    font-family: 'Sweet Bread', sans-serif;
+}
+#portfolio header h4 a {
+    color: #595959;
+    font-size: 50px;
+    font-family: 'Sweet Bread', sans-serif;
 }
 
 
