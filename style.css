@@ -229,7 +229,10 @@ nav ul li a:hover {
     font-family: 'Sweet Bread', sans-serif;
 }
 
-
+#portfolio img {
+    width: 600px;
+    height: auto;
+}
 
 
 
